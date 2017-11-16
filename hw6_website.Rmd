@@ -1,0 +1,37 @@
+---
+title: "hw6_website"
+author: "Yutian Mu(ym2649), Zhuyu Qiu(zq2157)"
+date: "11/16/2017"
+output: html_document
+---
+
+We used the “The Instacart Online Grocery Shopping Dataset 2017”. It is an online grocery service that allows you to shop online from local stores. In New York City, partner stores include Whole Foods, Fairway, and The Food Emporium. Instacart offers same-day delivery, and items that users purchase are delivered within 2 hours.
+
+The dataset contains 1,384,617 observations of 131,209 unique users, where each row in the dataset is a product from an order. There is a single order per user in this dataset.And there are 15 variables in this dataset: order_id, product_id, add_to_cart_order, reordered, user_id, eval_set, order_number, order_dow, order_hour_of_day, days_since_prior_order, product_name, aisle_id, department_id, aisle, department.
+
+#Problem 1
+The dashboard for problem 1 is [here](p1_dashboard.html) 
+
+This dashboard contains three plots made by using Plotly.
+
+- The first plot is a box plot, showing the distribution of the order hour of the day for each department. We can find that all departments have similar means of the order hours per day, at 13 and 14 hour.
+
+- The second plot is a bar plot, showing how many items are ordered in each department. And we can find out that "produce" had the most items ordered while bulk had the least items ordered. 
+
+- The third plot is a line plot, showing how many items are orderedof the order hour of the day for each department. We can find out most items were ordered during 10am to 3pm for almost every department, and least items were ordered during midnight. And the "produce" department shows the most obviouse trend.
+
+#Problem 2
+The dashboard for problem 2 is [here](http://127.0.0.1:3860)
+
+We created a shiny-enabled dashboard based on the work in Problem 1 and added two widgets---one selectInput widget and one sliderInput widget. 
+
+- The selectInput widge creates a drop-down menu with choices for the department to select from. 
+
+- The sliderInput widge creates a slider with choices for the minimum and maximum value of order_hour_of_day.
+
+- Then we wrap the codes for plots in Problem 1 in a renderPlotly call to make them interactive. 
+
+####Github
+The GitHub repo containing the solution to problem1 and 2 is [here](https://github.com/yutianmm/p8105_hw6_ym2649)
+
+The GitHub repo containing the website is [here](https://github.com/yutianmm/instacart_dashboard.github.io)

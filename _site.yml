@@ -1,0 +1,12 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+     - icon: fa-github 
+       href: http://github.com/yutianmm/
+
+    
+output:
+  html_document
+  
