@@ -18,7 +18,7 @@ This dashboard contains three plots made by using Plotly.
 
 - The second plot is a bar plot, showing how many items are ordered in each department. And we can find out that "produce" had the most items ordered while bulk had the least items ordered. 
 
-- The third plot is a line plot, showing how many items are orderedof the order hour of the day for each department. We can find out most items were ordered during 10am to 3pm for almost every department, and least items were ordered during midnight. And the "produce" department shows the most obviouse trend.
+- The third plot is a line plot, showing how many items are orderedof the order hour of the day for each department. We can find out most items were ordered during 10am to 3pm for almost every department, and least items were ordered during midnight. And the "produce" department shows the most obvious trend.
 
 #Problem 2
 The dashboard for problem 2 is [here](http://127.0.0.1:3860)
@@ -34,4 +34,4 @@ We created a shiny-enabled dashboard based on the work in Problem 1 and added tw
 ####Github
 The GitHub repo containing the solution to problem1 and 2 is [here](https://github.com/yutianmm/p8105_hw6_ym2649)
 
-The GitHub repo containing the website is [here](https://github.com/yutianmm/instacart_dashboard.github.io)
+The GitHub repo containing the website is [here](https://github.com/yutianmm/hw6_website)
